@@ -33,3 +33,32 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
+
+
+
+# Alekseys-MacBook-Pro:di alexkim$ nest g module computer
+CREATE src/computer/computer.module.ts (85 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g module cpu
+CREATE src/cpu/cpu.module.ts (80 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g module disk
+CREATE src/disk/disk.module.ts (81 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g module power
+CREATE src/power/power.module.ts (82 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g service cpu
+CREATE src/cpu/cpu.service.spec.ts (439 bytes)
+CREATE src/cpu/cpu.service.ts (87 bytes)
+UPDATE src/cpu/cpu.module.ts (151 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g service power
+CREATE src/power/power.service.spec.ts (453 bytes)
+CREATE src/power/power.service.ts (89 bytes)
+UPDATE src/power/power.module.ts (159 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g service disk
+CREATE src/disk/disk.service.spec.ts (446 bytes)
+CREATE src/disk/disk.service.ts (88 bytes)
+UPDATE src/disk/disk.module.ts (155 bytes)
+Alekseys-MacBook-Pro:di alexkim$ nest g controller computer
+CREATE src/computer/computer.controller.spec.ts (506 bytes)
+CREATE src/computer/computer.controller.ts (105 bytes)
+UPDATE src/computer/computer.module.ts (182 bytes)
